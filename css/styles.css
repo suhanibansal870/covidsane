@@ -180,7 +180,8 @@ i{
 }
 
 .closebtn:hover {
-  color: black;
+  color: white;
+  opacity:0.5;
 }
 
 @media (min-width: 900px) and (max-width: 1024px){

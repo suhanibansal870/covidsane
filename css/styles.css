@@ -183,7 +183,7 @@ i{
   color: black;
 }
 
-@media (min-width: 800px) and (max-width: 1024px){
+@media (min-width: 900px) and (max-width: 1024px){
   .alert{
     display:none;
   }
@@ -192,7 +192,7 @@ i{
   }
 }
 
-@media (min-width: 414px) and (max-width: 768px){
+@media (min-width: 414px) and (max-width: 900px){
   .alert2{
     display:none;
   }

@@ -77,8 +77,6 @@ i{
   display:none;
 }
 
-.alert.success {background-color: #04AA6D;}
-.alert.info {background-color: #2196F3;}
 .alert.warning {background-color: #ff9800;}
 
 .closebtn {
@@ -97,24 +95,21 @@ i{
   opacity:0.5;
 }
 
+
 @media (min-width: 768px) and (max-width: 1024px){
-  .alert2{
-    display:none;
-    height:2.5rem;
-  }
   .alert{
+    display:none;
+  }
+  .alert2{
     display:block;
-    height:2.5rem;
   }
 }
 
 @media (min-width: 414px) and (max-width: 768px){
   .alert2{
     display:none;
-    height:2.5rem;
   }
   .alert{
     display:block;
-    height:2.5rem;
   }
 }

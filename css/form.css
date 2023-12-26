@@ -1,0 +1,115 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #1f1f1f;
+}
+#title {
+  background-color: #395B50;
+  color: #fff;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  color: #fff;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #1f1f1f;
+}
+h3 {
+  font-family: "Poppins", sans-serif;
+  color: #1f1f1f;
+  font-weight: bolder;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Poppins";
+}
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 50px 50px;
+}
+
+i{
+  color:#007bff;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #ff9800;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin-bottom: 2px;
+  display:none;
+}
+
+.alert2 {
+  padding: 20px;
+  background-color: #ff9800;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin-bottom:2px;
+  display:none;
+}
+
+.alert.warning {background-color: #ff9800;}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: white;
+  opacity:0.5;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+  .alert{
+    display:none;
+  }
+  .alert2{
+    display:block;
+  }
+}
+
+@media (min-width: 414px) and (max-width: 768px){
+  .alert2{
+    display:none;
+  }
+  .alert{
+    display:block;
+  }
+}

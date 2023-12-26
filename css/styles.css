@@ -1,0 +1,203 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #1f1f1f;
+}
+#title {
+  background-color: #395B50;
+  color: #fff;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  color: #fff;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #1f1f1f;
+}
+h3 {
+  font-family: "Poppins", sans-serif;
+  color: #1f1f1f;
+  font-weight: bolder;
+}
+.icon {
+  color: #5A7684;
+  margin-bottom: 5%;
+}
+.icon :hover {
+  color: #395B50;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Poppins";
+}
+
+/* Download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* iphone image */
+.iphone-img {
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+.rotate-25 {
+  transform: rotate(25deg);
+}
+
+/* features */
+#features {
+  padding: 7% 15%;
+  text-align: center;
+  line-height: 1.5;
+  background-color: #fff;
+  z-index: 1;
+  position: relative;
+}
+
+#features-2 {
+  padding: 7% 15%;
+  text-align: center;
+  line-height: 1.5;
+  background-color: #fff;
+  z-index: 1;
+  position: relative;
+}
+
+/* testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #5A7684;
+  color: #fff;
+}
+/* press */
+#press {
+  background-color: #5A7684;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#cta {
+  background-color: #395B50;
+  text-align: center;
+  padding: 100px 15% 40px;
+}
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 50px 50px;
+}
+.spanSpace {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .iphone-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+i{
+  color:#007bff;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #ff9800;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin-bottom: 2px;
+  display:none;
+}
+
+.alert2 {
+  padding: 20px;
+  background-color: #ff9800;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin-bottom:2px;
+  display:none;
+}
+
+.alert.success {background-color: #04AA6D;}
+.alert.info {background-color: #2196F3;}
+.alert.warning {background-color: #ff9800;}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color:white;
+  opacity: 0.5;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+  .alert{
+    display:none;
+  }
+  .alert2{
+    display:block;
+  }
+}
+
+@media (min-width: 414px) and (max-width: 768px){
+  .alert2{
+    display:none;
+  }
+  .alert{
+    display:block;
+  }
+}
